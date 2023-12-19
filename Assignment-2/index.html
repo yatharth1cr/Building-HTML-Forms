@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- linking font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- linking style sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container flex">
+        <img src="assets/logo.png" alt="logo" />
+        <span class="logo">JOURNEY</span>
+        <nav>
+          <a style="color: #69c6ba" href="#">Home</a>
+          <a href="#">Top Destinations</a>
+          <a href="#">Recommended Places</a>
+          <a href="#">Contacts Us</a>
+        </nav>
+      </div>
+    </header>
+    <!-- main tag is start from here  -->
+    <main>
+      <!-- section banner  -->
+      <section class="banner">
+        <h1>LET'S BEGIN</h1>
+        <img class="dot" src="assets/dots-3.png" alt="dots" />
+        <p class="bnrtext">we assist you to choose the best</p>
+        <i class="fa-solid fa-angle-down" style="color: #ffffff"></i>
+        <!-- check availability form portion -->
+        <form action="index.html" method="post">
+          <div class="flex2">
+            <fieldset class="col1">
+              <legend>Choose your destination</legend>
+              <input type="text" placeholder="Type your destination..." />
+              <legend>Check In Date</legend>
+              <input type="text" placeholder="Check in" />
+            </fieldset>
+            <fieldset class="col2">
+              <legend>Check Out Date</legend>
+              <input type="text" placeholder="Check Out" />
+            </fieldset>
+            <fieldset class="col3">
+              <div class="col-flex">
+                <div class="col3-flex">
+                  <legend>
+                    How many rooms?
+                    <input type="number" placeholder="1 rooms" required />
+                  </legend>
+                  <legend>
+                    Adult
+                    <input
+                      type="number"
+                      id="quantity"
+                      name="quantity"
+                      min="0"
+                      max="12"
+                      step="1"
+                      value="0"
+                    />
+                  </legend>
+                  <legend>
+                    Children
+                    <input
+                      type="number"
+                      id="quantity"
+                      name="quantity"
+                      min="0"
+                      max="10"
+                      step="1"
+                      value="0"
+                    />
+                  </legend>
+                </div>
+                <button class="btn">CHECK AVAILABILITY</button>
+              </div>
+            </fieldset>
+          </div>
+        </form>
+      </section>
+      <!-- article portion -->
+      <article class="article1">
+        <h2>YOUR <span class="highlight"> JOURNEY </span> IS OUR PRIORITY</h2>
+        <p class="articletxt">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+          teneturnihil, reprehenderit distinctio dolorem repudiandae. Suscipit
+        </p>
+        <p class="articletxt">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi at sunt
+        </p>
+        <button class="btn2">CONTINUE EXPLORE</button>
+      </article>
+      <!-- section2 -->
+      <section>
+        <div class="flex">
+          <figure>
+            <img class="articleimg" src="assets/tm-img-01.jpg" alt="europe" />
+          </figure>
+          <div class="placeinfo">
+            <h3>Europe's most visited places</h3>
+            <p class="placeP">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis
+              nihil hic neque fugiat sequi voluptate quam, animi ea rem
+              fugit,Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum est sint perspiciatis adipisci similique inventore sunt
+              possimus, consequuntur ipsam maiores ipsa?
+            </p>
+            <button class="btn3">CONTINUE READING</button>
+          </div>
+        </div>
+        <div class="flex">
+          <div
+            style="margin-left: 110px; background-color: #c66995"
+            class="placeinfo"
+          >
+            <h3>Asia's most popular places</h3>
+            <p class="placeP">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis
+              nihil hic neque fugiat sequi voluptate quam, animi ea rem
+              fugit,Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum est sint perspiciatis adipisci similique inventore sunt
+              possimus, consequuntur ipsam maiores ipsa?
+            </p>
+            <button style="color: #c66995" class="btn3">
+              CONTINUE READING
+            </button>
+          </div>
+          <figure>
+            <img
+              style="margin-left: 600px"
+              class="articleimg"
+              src="assets/tm-img-02.jpg"
+              alt="europe"
+            />
+          </figure>
+        </div>
+        <div class="flex">
+          <figure>
+            <img class="articleimg" src="assets/tm-img-03.jpg" alt="europe" />
+          </figure>
+          <div class="placeinfo">
+            <h3>Europe's most visited places</h3>
+            <p class="placeP">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis
+              nihil hic neque fugiat sequi voluptate quam, animi ea rem
+              fugit,Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum est sint perspiciatis adipisci similique inventore sunt
+              possimus, consequuntur ipsam maiores ipsa?
+            </p>
+            <button class="btn3">CONTINUE READING</button>
+          </div>
+        </div>
+      </section>
+      <!-- map section -->
+      <section class="sectionmap">
+        <figure class="map">
+          <img src="assets/north-america.png" alt="mapimg" />
+          <p>NORTH AMERICA</p>
+        </figure>
+        <figure class="map">
+          <img src="assets/south-america.png" alt="mapimg" />
+          <p>SOUTH AMERICA</p>
+        </figure>
+        <figure class="map">
+          <img src="assets/europe.png" alt="mapimg" />
+          <p>EUROPE</p>
+        </figure>
+        <figure style="background-color: #c66995" class="map">
+          <img src="assets/asia.png" alt="mapimg" />
+          <p>ASIA</p>
+        </figure>
+        <figure class="map">
+          <img src="assets/africa.png" alt="mapimg" />
+          <p>AFRICA</p>
+        </figure>
+        <figure class="map">
+          <img src="assets/australia.png" alt="mapimg" />
+          <p>AUSTRALIA</p>
+        </figure>
+        <figure class="map">
+          <img src="assets/antartica.png" alt="mapimg" />
+          <p>ANTARTICA</p>
+        </figure>
+      </section>
+      <!-- card section -->
+      <section class="cards">
+        <figure class="container card">
+          <img src="assets/tm-img-07.jpg" alt="img" />
+          <div class="cardtxt">
+            <h4>ASIA RESORT HOTEL</h4>
+            <span class="countryname">Singapore</span>
+            <p class="cardp">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+              deserunt vel quae e nulla eius quasi, aspernatur facilis ipsam,
+              aliquam in et soluta
+            </p>
+          </div>
+          <img class="curve" src="assets/button-curve.png" alt="curveimg" />
+          <div class="cardmoney">
+            <span>$450</span>
+            <p>CONTINUE READING</p>
+          </div>
+        </figure>
+        <figure class="container card">
+          <img src="assets/tm-img-06.jpg" alt="img" />
+          <div class="cardtxt">
+            <h4>NULLAM EGET ESTA NISLL</h4>
+            <span class="countryname">Yangon,Myanmar</span>
+            <p class="cardp">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+              deserunt vel quae e nulla eius quasi, aspernatur facilis ipsam,
+              aliquam in et soluta
+            </p>
+          </div>
+          <img class="curve" src="assets/button-curve.png" alt="curveimg" />
+          <div class="cardmoney">
+            <span>$460</span>
+            <p>CONTINUE READING</p>
+          </div>
+        </figure>
+        <figure class="container card">
+          <img src="assets/tm-img-05.jpg" alt="img" />
+          <div class="cardtxt">
+            <h4>ASIA RESORT HOTEL</h4>
+            <span class="countryname">Bangkok,Thailand</span>
+            <p class="cardp">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+              deserunt vel quae e nulla eius quasi, aspernatur facilis ipsam,
+              aliquam in et soluta
+            </p>
+          </div>
+          <img class="curve" src="assets/button-curve.png" alt="curveimg" />
+          <div class="cardmoney">
+            <span>$440</span>
+            <p>CONTINUE READING</p>
+          </div>
+        </figure>
+        <figure class="container card">
+          <img src="assets/tm-img-04.jpg" alt="img" />
+          <div class="cardtxt">
+            <h4>ASIA RESORT HOTEL</h4>
+            <span class="countryname">Vietiane,Laos</span>
+            <p class="cardp">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+              deserunt vel quae e nulla eius quasi, aspernatur facilis ipsam,
+              aliquam in et soluta
+            </p>
+          </div>
+          <img class="curve" src="assets/button-curve.png" alt="curveimg" />
+          <div class="cardmoney">
+            <span>$480</span>
+            <p>CONTINUE READING</p>
+          </div>
+        </figure>
+        <button class="btn4">SHOW MORE PALCES</button>
+      </section>
+      <!-- contact us section  -->
+      <section class="contact">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57173176.00670386!2d100!3d28.999999999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3663f18a24cbe857%3A0xa9416bfcd3a0f459!2sAsia!5e0!3m2!1sen!2sin!4v1702929101754!5m2!1sen!2sin"
+          width="100%"
+          height="500"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+        <div class="overlay"></div>
+        <form class="map-form" action="submit" style="position: absolute">
+          <div class="flex-inp">
+            <input class="inp" type="text" placeholder="Name" />
+            <input class="inp" type="email" placeholder="Email" />
+          </div>
+          <input class="inp" type="text" placeholder="Subject" />
+          <textarea
+            class="inp"
+            style="border: none"
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+        </form>
+      </section>
+      
+    </main>
+  </body>
+</html>
