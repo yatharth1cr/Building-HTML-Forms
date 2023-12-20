@@ -397,3 +397,25 @@ h4 {
 .contact {
   position: relative;
 }
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.map-form {
+  position: absolute;
+  top: 80px;
+  bottom: 80px;
+  right: 80px;
+}
+/* footer */
+footer {
+  background-color: #69c6ba;
+  text-align: center;
+  color: #fff;
+  padding: 45px;
+  font-size: 18px;
+}
